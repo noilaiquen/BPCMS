@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Helpers
+END
+FacebookPageTabHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Helpers/FacebookPageTabHelper.php
+END
+FacebookJavaScriptHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Helpers/FacebookJavaScriptHelper.php
+END
+FacebookSignedRequestFromInputHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Helpers/FacebookSignedRequestFromInputHelper.php
+END
+FacebookRedirectLoginHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Helpers/FacebookRedirectLoginHelper.php
+END
+FacebookCanvasHelper.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Helpers/FacebookCanvasHelper.php
+END

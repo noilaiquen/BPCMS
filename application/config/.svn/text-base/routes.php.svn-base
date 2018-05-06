@@ -1,0 +1,275 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+/*
+| -------------------------------------------------------------------------
+| URI ROUTING
+| -------------------------------------------------------------------------
+| This file lets you re-map URI requests to specific controller functions.
+|
+| Typically there is a one-to-one relationship between a URL string
+| and its corresponding controller class/method. The segments in a
+| URL normally follow this pattern:
+|
+|	example.com/class/method/id/
+|
+| In some instances, however, you may want to remap this relationship
+| so that a different class/function is called than the one
+| corresponding to the URL.
+|
+| Please see the user guide for complete details:
+|
+|	https://codeigniter.com/user_guide/general/routing.html
+|
+| -------------------------------------------------------------------------
+| RESERVED ROUTES
+| -------------------------------------------------------------------------
+|
+| There are three reserved routes:
+|
+|	$route['default_controller'] = 'users';
+|
+| This route indicates which controller class should be loaded if the
+| URI contains no data. In the above example, the "welcome" class
+| would be loaded.
+|
+|	$route['404_override'] = 'errors/page_missing';
+|
+| This route will tell the Router which controller/method to use if those
+| provided in the URL cannot be matched to a valid route.
+|
+|	$route['translate_uri_dashes'] = FALSE;
+|
+| This is not exactly a route, but allows you to automatically route
+| controller and method names that contain dashes. '-' isn't a valid
+| class or method name character, so it requires translation.
+| When you set this option to TRUE, it will replace ALL dashes in the
+| controller and method URI segments.
+|
+| Examples:	my-controller/index	-> my_controller/index
+|		my-controller/my-method	-> my_controller/my_method
+*/
+$route['default_controller'] = 'home_user'; //home
+$route['404_override'] = 'home/pagemissing';
+$route['translate_uri_dashes'] = FALSE;
+
+//Config Router Multi Language
+// $route['^(en|vi)/(.+)$'] = "$1";
+// $route['^(en|vi)$'] = $route['default_controller'];
+
+//Config Router Front End
+
+
+//Config Router Admincp
+$route[ADMINCP] = "admincp";
+$route[ADMINCP.'/menu'] = "admincp/menu";
+$route[ADMINCP.'/login'] = "admincp/login";
+$route[ADMINCP.'/logout'] = "admincp/logout";
+$route[ADMINCP.'/permission'] = "admincp/permission";
+$route[ADMINCP.'/saveLog'] = "admincp/saveLog";
+$route[ADMINCP.'/update_profile'] = "admincp/update_profile";
+$route[ADMINCP.'/setting'] = "admincp/setting";
+$route[ADMINCP.'/getSetting'] = "admincp/getSetting";
+$route[ADMINCP.'/theme'] = "admincp_theme/admincp_index";
+$route[ADMINCP.'/(:any)/(:any)/(:any)/(:any)'] = "$1/admincp_$2/$3/$4";
+$route[ADMINCP.'/(:any)/(:any)/(:any)'] = "$1/admincp_$2/$3";
+$route[ADMINCP.'/(:any)/(:any)'] = "$1/admincp_$2";
+$route[ADMINCP.'/(:any)'] = "$1/admincp_index";
+
+
+
+/*************** HABFIT USER CONFIG ***************/
+$route['career'] = 'home_user/career';
+$route['press'] = 'home_user/press';
+$route['faqs'] = 'home_user/faqs';
+$route['inspiration'] = 'home_user/inspiration';
+$route['terms-and-conditions'] = 'home_user/terms_and_conditions';
+$route['privacy'] = 'home_user/privacy';
+$route['refund'] = 'home_user/refund';
+$route['guidelines'] = 'home_user/guidelines';
+$route['team'] = 'home_user/team';
+
+$route['review'] = 'home_user/review';
+$route['review_submit'] = 'home_user/save_review';
+$route['profile'] = 'home_user/public_profiles_empty';
+$route['profile/(:any)'] = 'home_user/public_profiles/$1';
+$route['review-public'] = 'home_user/get_review_public';
+// $route['active'] = '';
+//
+//
+//guidelines --SERVICE GUIDELINES AND STANDARDS
+//refund --CLIENT REFUND POLICY
+//terms -Terms of Service --Terms and Conditions
+//privacy --PRIVACY POLICIES
+//faqs --FREQUENTLY ASKED QUESTIONS
+//press -Terms of Service --Terms and Conditions
+//inspiration -Inspiration Stream --Terms and Conditions
+//inspiration_detail
+//career
+//career_detail
+//
+/*************** /End HABFIT USER CONFIG ***************/ 
+
+
+
+//TEST
+$route['testdev'] = 'test/func_test';
+$route['message'] = 'test/message';
+$route['autologin'] = 'auth/autologin';
+$route['autologinnew'] = 'auth/autologinnew';
+$route['promocreate'] = 'test';
+$route['styletest'] = 'library/style/test';
+$route['insertStripe']='home/insertStripeId';
+$route['insertChargePackage']='home/chargePackage';
+/*************** HABFIT PRO CONFIG ***************/
+
+/*----------------------
+ * Config HOME
+ -----------------------*/
+$route[HABFIT_PRO] = 'home';
+$route['signup'] = 'auth/signup';
+$route['login'] = 'auth/login';
+$route['logout'] = 'auth/logout';
+$route['passwordrecovery'] = 'auth/password_reset';
+
+
+/*----------------------
+ * Config DASHBOARD
+ -----------------------*/
+$route['dashboard'] = 'dashboard/index';
+$route['dashboard/daily'] = 'dashboard/daily';
+$route['dashboard/daily/bookingdetail'] = 'dashboard/getbookingdetail';
+// $route['dashboard/daily/addcontact'] = 'dashboard/addcontact';
+$route['dashboard/daily/confirmed'] = 'dashboard/confirmed';
+$route['dashboard/daily/showmore'] = 'dashboard/showmore_daily';
+
+$route['dashboard/client/updatelike'] = 'dashboard/update_like_contact';
+$route['dashboard/client/search'] = 'dashboard/search_client';
+$route['dashboard/client/searchmore'] = 'dashboard/showmore_search_result';
+$route['dashboard/client/addcontact'] = 'dashboard/add_contact';
+/*----------------------
+ * Config ACCOUNT
+ -----------------------*/
+$route['account'] = 'users';
+$route['account/avatar'] = 'users/upload_avatar';
+$route['account/personal'] = 'users/update_personal_profile';
+$route['account/personal_id'] = 'users/update_personal_account_id';
+$route['account/award'] = 'users/upload_personal_award';
+$route['account/award/delete'] = 'users/delete_personal_award';
+
+$route['account/salon'] = 'users/update_salon_profile';
+$route['account/photo'] = 'users/upload_salon_photo';
+$route['account/photo/delete'] = 'users/delete_salon_photo';
+
+// $route['account/review'] = 'users/show_more_review';
+$route['account/review/showmore'] = 'users/showmore_review';
+
+
+/*----------------------
+ * Config SERVICES
+ -----------------------*/
+$route['services'] = 'services';
+$route['services/mainservices'] = 'services/show_mainservices';
+$route['services/mainservices/update'] = 'services/update_mainservices';
+
+$route['services/promotion'] = 'services/show_promotion';
+$route['services/promotion/create'] = 'services/create_promotion';
+$route['services/promotion/save'] = 'services/save_promotion';//
+$route['services/promotion/edit/(:any)'] = 'services/edit_promotion/$1';
+$route['services/promotion/update'] = 'services/update_promotion';
+$route['services/promotion/view/(:any)'] = 'services/view_promotion/$1';
+$route['services/promotion/detail/(:any)'] = 'services/detail_promotion/$1';
+$route['services/promotion/upload'] = 'services/upload_promotion';
+
+$route['services/availability'] = 'services/show_availability';
+$route['services/availability/update'] = 'services/update_availability';
+
+
+/*----------------------
+ * Config LIBRARY
+ -----------------------*/
+$route['library'] = 'library';
+$route['library/myportfolio'] = 'library/show_myportfolio';
+$route['library/myportfolio/showmore'] = 'library/showmore_myportfolio';
+
+$route['library/album'] = 'library/show_album';
+$route['library/album/create'] = 'library/create_album';
+$route['library/album/save'] = 'library/save_album';
+$route['library/album/detail'] = 'library/detail_album';
+$route['library/album/detail/(:any)'] = 'library/detail_album/$1';
+$route['library/album/update'] = 'library/update_album';
+$route['library/album/delete'] = 'library/delete_album';
+// $route['library/album/view'] = 'library/view_album';
+// $route['library/album/view/(:any)'] = 'library/view_album/$1';
+$route['library/album/upload'] = 'library/upload_album';
+
+$route['library/album/detail/(:any)/upload'] = 'library/upload_album/$1';
+$route['library/myportfolio/upload'] = 'library/upload_album';
+$route['library/myportfolio/showmore'] = 'library/showmore_myportfolio';
+
+//photo == hairstyle
+$route['library/style/normal/price'] = 'library/style/get_normal_style_price';
+$route['library/style/normal/priceupdate'] = 'library/style/get_normal_style_price_when_update';
+$route['library/style/normal/save'] = 'library/style/save_normal_style';
+
+$route['library/style/promotion'] = 'library/style/get_list_promotion';
+$route['library/style/promotion/price'] = 'library/style/get_promotion_style_price';
+$route['library/style/promotion/priceupdate'] = 'library/style/get_promotion_style_price_when_update';
+$route['library/style/promotion/save'] = 'library/style/save_promotion_style';
+
+$route['library/style/detail/(:any)'] = 'library/style/style_detail/$1';
+$route['library/style/normal/update'] = 'library/style/update_normal_style';
+$route['library/style/promotion/update'] = 'library/style/update_promotion_style';
+
+$route['library/style/publish'] = 'library/style/publish_style';
+$route['library/style/delete'] = 'library/style/delete_style';
+
+$route['library/promotion'] = 'library/show_promotion';
+$route['library/promotion/current'] = 'library/current_promotion';
+$route['library/promotion/past'] = 'library/past_promotion';
+
+/************ PHASE 2
+$route['library/style/normal/update'] = 'library/style/update_normal_style';
+$route['library/style/promotion/update'] = 'library/style/update_promotion_style';
+**************************/
+
+/*----------------------
+ * Config GROW YOUR CLIENTELE
+ -----------------------*/
+$route['grow-your-clientele'] = 'home/grow_your_clientele';
+
+/*----------------------
+ * Config TERMS and POLICIES
+ -----------------------*/
+$route['faqs'] = 'home/faqs';
+$route['customer-support'] = 'home/customer_support';
+$route['t-and-c'] = 'home/terms_and_conditions';//terms-and-conditions
+$route['privacy-policy'] = 'home/privacy_policy';
+$route['service-guidelines'] = 'home/service_guidelines';
+$route['payment'] = 'home/payment';
+$route['payment/link-bank-account'] = 'home/payment';
+$route['payment/payment-more-services'] = 'home/payment_more_services';
+$route['payment/unlink-stripe'] = 'home/unlink_stripe_customer';
+
+$route['tutorial'] = 'home/tutorial';
+$route['setting'] = 'home/setting';
+
+/*----------------------
+ * Config BLOG
+ -----------------------*/
+// $route['blog'] = 'blog';
+
+// SUBPAGE FOR PRO HOMEPAGE
+$route['how-it-works'] = 'home/how_it_works';
+$route['about'] = 'home/about';
+// $route['team'] = 'home/team';
+
+/*----------------------
+ * Config API
+ -----------------------*/
+// $route['SP0001'] = 'api/get_faqs';//FAQs
+// $route['SP0002'] = 'api/get_privacy_policy';//Privacy Policy
+// $route['SP0003'] = 'api/get_services_guideline';//Services guideline
+// $route['SP0004'] = 'api/get_term_of_serivce';//Term of Serivce
+/*************** /End HABFIT PRO CONFIG ***************/
+

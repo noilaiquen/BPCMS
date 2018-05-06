@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Habfit/!svn/ver/25/Code/application/helpers/PHPExcel/Classes/PHPExcel/RichText
+END
+TextElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Habfit/!svn/ver/25/Code/application/helpers/PHPExcel/Classes/PHPExcel/RichText/TextElement.php
+END
+Run.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Habfit/!svn/ver/25/Code/application/helpers/PHPExcel/Classes/PHPExcel/RichText/Run.php
+END
+ITextElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Habfit/!svn/ver/25/Code/application/helpers/PHPExcel/Classes/PHPExcel/RichText/ITextElement.php
+END

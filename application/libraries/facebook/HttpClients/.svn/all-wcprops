@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/HttpClients
+END
+FacebookGuzzleHttpClient.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/HttpClients/FacebookGuzzleHttpClient.php
+END
+FacebookHttpClientInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/HttpClients/FacebookHttpClientInterface.php
+END
+HttpClientsFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/HttpClients/HttpClientsFactory.php
+END
+FacebookCurlHttpClient.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/HttpClients/FacebookCurlHttpClient.php
+END
+FacebookCurl.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/HttpClients/FacebookCurl.php
+END
+FacebookStreamHttpClient.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/HttpClients/FacebookStreamHttpClient.php
+END
+FacebookStream.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/HttpClients/FacebookStream.php
+END

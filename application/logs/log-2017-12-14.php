@@ -1,0 +1,40 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2017-12-14 11:28:12 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 11:30:55 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 11:31:21 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 11:31:56 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 11:32:10 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 11:32:28 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 11:33:48 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 11:53:59 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 11:54:01 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 11:54:06 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 20:49:42 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:20:58 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:21:50 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:22:11 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:23:51 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:24:29 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:24:45 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:27:21 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:27:21 --> Severity: Notice --> Undefined variable: product_code E:\wamp\www\BPCMS\application\modules\import_export_management\views\ajax_loadContent.php 46
+ERROR - 2017-12-14 21:27:21 --> Severity: Notice --> Undefined variable: product_code E:\wamp\www\BPCMS\application\modules\import_export_management\views\ajax_loadContent.php 46
+ERROR - 2017-12-14 21:27:21 --> Severity: Notice --> Undefined variable: product_code E:\wamp\www\BPCMS\application\modules\import_export_management\views\ajax_loadContent.php 46
+ERROR - 2017-12-14 21:27:34 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:27:38 --> Severity: Parsing Error --> syntax error, unexpected '?>', expecting ']' E:\wamp\www\BPCMS\application\modules\import_export_management\views\ajax_loadContent.php 46
+ERROR - 2017-12-14 21:27:43 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:28:16 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:28:21 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:28:38 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:29:04 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:30:17 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:31:43 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:35:27 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:36:16 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:38:20 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:41:50 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:43:37 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:45:38 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:46:07 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110
+ERROR - 2017-12-14 21:46:59 --> Severity: Notice --> Undefined variable: products E:\wamp\www\BPCMS\application\modules\import_export_management\views\index.php 110

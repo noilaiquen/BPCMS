@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Authentication
+END
+OAuth2Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Authentication/OAuth2Client.php
+END
+AccessToken.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Authentication/AccessToken.php
+END
+AccessTokenMetadata.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Authentication/AccessTokenMetadata.php
+END

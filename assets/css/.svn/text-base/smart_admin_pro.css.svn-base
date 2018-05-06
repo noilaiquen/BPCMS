@@ -1,0 +1,259 @@
+/*For device: tablet, mobile*/
+/*Min -> 320px -> 768px ->992px -> 1024px -> Max*/
+
+
+
+@media only screen and (min-width: 992px) {
+
+	.item-photo img{
+		max-width:269px;
+		max-height:269px;
+		width:100%;
+		height:auto;
+		border-radius:10px;
+	}
+	
+	/*qui dinh chieu rong border dashboard -> client*/
+	.blk-ctr-3n .item-3n:nth-child(3n) .item-client:before{width:100%;}
+}
+
+@media only screen and (max-width: 1200px) {
+	.item-client li:nth-child(2) {
+		padding-left:0;
+	}
+	
+	.fav-addcontact li{
+		margin-bottom:30px;
+		margin-left:9px;
+	}
+	.fav-addcontact li:last-child{margin-left:10px;}
+	
+	.check-item p{font-size:16px;}
+	
+	.photo-save-upload input:nth-child(1), .photo-save-upload textarea{
+		max-width:100%;
+	}
+	
+	.avarta-off-on li:nth-child(2) {
+		float: left;
+		position: relative;
+		display: block;
+		width: 100%;
+		height: 40px;
+		margin-bottom:70px;
+	}
+	.avarta-off-on li:nth-child(1) h3{margin-bottom:15px;}
+	.avarta-off-on span{top:0;right:auto;}
+	.avarta-off-on span:nth-child(1){left:0;}
+	.avarta-off-on span:nth-child(2){left:68px;}
+}
+
+/*
+@media only screen and (max-width: 1199px) {
+	.col-md-6{width:100%!important;}
+}*/
+@media only screen and (max-width: 1024px) {
+
+	
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+	
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    
+}
+
+@media only screen and (max-width: 991px) {
+	
+	.total-photo{width: calc(100% - 15px)!important;}
+
+	/*tuy chinh header*/
+	.logo-explore, .avata-help{text-align:center;}
+	.avata-help ul{float:none;}
+	/*tuy chinh menu top*/
+	.menu-top{height:auto;padding-bottom:10px;}
+	
+	/*tuy chinh tab library photo*/
+	.photo-library .blok-tab-photop li{width:100%;}
+	.photo-library .blok-tab-photop li:nth-child(2){
+		margin-left:-1px;
+		width:calc(100% + 1px);
+	}
+	.photo-library .blok-tab-photop li:nth-child(3){
+		margin-left:0;
+	}
+	.ft-page{height:auto;}
+	
+	/*change widht and hieght popup dashboard*/
+	#popup-booking{
+		max-width:640px;
+		max-height:400px;
+	}
+	.avarta-icon{height:auto;}
+	/*qui dinh chieu rong border dashboard -> client*/	
+	.item-client:before{
+		content:'';
+		position:absolute;
+		left:-15px;
+		bottom:-2px;
+		width:calc(100% + 30px);
+		height:2px;
+		background-color:#dcdcdc;
+	}
+	
+	/*chang scheduler */
+	/*.day-in-week,.week-in-month,.day-in-week li,.day-in-week li:nth-child(7),
+	.day-in-week li:nth-child(6){width:100%;}*/
+	
+	.check-item p{font-size:20px;}
+	.posi-fixed-tabday{
+		top:139px;
+	}
+	.photo-library .blok-tab-photop li:nth-child(3){border-left: 1px solid #8b6ce4;}
+	.child-top-add{margin-top:284px;}
+	
+	.img-sales{margin-bottom:30px;}
+	
+	
+	
+	.fix-tab-service.blok-tab-photop{margin-bottom:15px;}
+	
+	.creat-upload.test{float:right;}
+	.row.scroll{margin-left:0;margin-bottom:70px;}
+	
+	.blk-sales-left{padding-right:0px;}
+	.sales-right{padding-left:0px;margin-bottom:30px;}
+	.mb-mg-b-20{margin-bottom:20px;}
+	
+	.day-in-week li{
+		font-size:14px;
+		height:75px;
+		padding-top:10px;
+	}
+	.week-in-month{height:75px;border-left:none;position:relative;}
+	.week-in-month:after{
+		content: '';
+		position: absolute;
+		left: -18px;
+		bottom: -1px;
+		width: calc(100% + 18px);
+		height: 1px;
+		background-color: #dcdcdc;
+	}
+	.parent-scrll-mb-990{overflow-x:auto;}
+	.mb-scl-w-990{width:990px!important;}
+	.ovr-hide-parent{
+		width:100%;
+		padding:0 15px;
+		position:relative;
+	}
+	.ovr-hide-parent:after{
+		content:'';
+		width:1px;
+		height:100%;
+		position:absolute;
+		left:15px;
+		top:0;
+		background-color:#dcdcdc;
+	}
+	.ovr-hide-parent:before{
+		content:'';
+		width:1px;
+		height:100%;
+		position:absolute;
+		right:15px;
+		top:0;
+		background-color:#dcdcdc;
+	}
+	.title-daily.mb-add{
+		margin-top:15px;
+	}
+	
+	.fix-in-row{
+		height:385px;
+	}
+	
+}/*end 991*/
+@media only screen and (max-width: 767px) {
+	.title-photo.mb-fix-size{font-size:25px;}
+	.block-images-photo.mb-fix{margin-bottom:40px;}
+	.break-time li:first-child{width:100%;}
+	.break-time li:last-child{width:100%;text-align:left;}
+	.mb-fix-mg-top-100px{margin-top:115px;}
+	ul.close-hour li:first-child{text-align:left;}
+	ul.close-hour li:last-child{text-align:left;}
+	.item-day > li > ul.close-hour.mb-fix{width:100%;float:left;}
+	.item-day > li > ul.open-hour.mb-fix{width:100%;}
+	.item-day.mb-fix{width:100%;}
+	.blk-item-day.mb-fix{
+	    padding: 30px 0 50px 0px;	
+	}
+	.item-list-promotion li:nth-child(2) span{padding-left:15px;font-size:14px;}
+	.blk-list-pro.mb-fix{
+	    padding: 0 5px 34px 5px;	
+	}
+	.Dashboard.mb-fix{margin-bottom:0;}
+	.icon-show-daily.mb-fix{margin-top:20px;margin-bottom:0;}
+	.content_search.mb-fix{width:250px;}
+	.search-dashboard.client input:first-child{padding-left:15px;}
+	.mb-fl-creat{
+		float:left;
+		margin-top:0!important;
+		margin-bottom:20px;
+	}
+	.title-photo.mb-res-title-maiser{
+		margin: 20px 0 33px;
+		font-size:30px;
+	}
+	#haircare-other-name{margin-bottom:20px;width:100%;float:left;margin-left:0;}
+	#haircare-other-descr{
+		width:100%;
+		margin-left:0;
+		float:left;
+	}
+	.mb-mg-top-40-svm{
+		margin-top:40px;
+		width:100%;
+	}
+	.blk-service > li{padding:0;}
+	.blk-main-service  .haircare-brands figcaption{padding-left:0;}
+	.haircare-brands div.mb-ck-main{
+		right:auto;
+		left:0;
+		top:30px;
+	}
+	
+	.tab-day{
+		height:auto;
+	    padding-bottom:15px;
+	}
+	.tab-day p{margin-top:35px;}
+	.title-client.scheduler{
+		margin-top: 25px;
+		margin-bottom: 30px;
+		font-size:25px;
+	}
+	.fix-in-row{
+		height:auto;
+	}
+}
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+ 	
+}
+
+
+@media only screen and (max-width: 520px) {
+	.mb-mg-t-15{margin-top:12px!important;}
+	.mb-mg-tp-67{margin-top:67px!important;font-size:25px!important;}
+}
+
+
+

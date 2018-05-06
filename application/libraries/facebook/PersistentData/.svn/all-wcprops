@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/PersistentData
+END
+FacebookMemoryPersistentDataHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/PersistentData/FacebookMemoryPersistentDataHandler.php
+END
+PersistentDataInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/PersistentData/PersistentDataInterface.php
+END
+PersistentDataFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/PersistentData/PersistentDataFactory.php
+END
+FacebookSessionPersistentDataHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/PersistentData/FacebookSessionPersistentDataHandler.php
+END

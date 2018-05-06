@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Url
+END
+FacebookUrlDetectionHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Url/FacebookUrlDetectionHandler.php
+END
+UrlDetectionInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Url/UrlDetectionInterface.php
+END
+FacebookUrlManipulator.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Url/FacebookUrlManipulator.php
+END

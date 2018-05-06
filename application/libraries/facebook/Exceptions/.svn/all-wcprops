@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Exceptions
+END
+FacebookAuthorizationException.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Exceptions/FacebookAuthorizationException.php
+END
+FacebookOtherException.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Exceptions/FacebookOtherException.php
+END
+FacebookSDKException.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Exceptions/FacebookSDKException.php
+END
+FacebookResumableUploadException.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Exceptions/FacebookResumableUploadException.php
+END
+FacebookThrottleException.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Exceptions/FacebookThrottleException.php
+END
+FacebookServerException.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Exceptions/FacebookServerException.php
+END
+FacebookClientException.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Exceptions/FacebookClientException.php
+END
+FacebookResponseException.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Exceptions/FacebookResponseException.php
+END
+FacebookAuthenticationException.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/Exceptions/FacebookAuthenticationException.php
+END

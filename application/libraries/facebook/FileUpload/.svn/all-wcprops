@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/FileUpload
+END
+FacebookFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/FileUpload/FacebookFile.php
+END
+Mimetypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/FileUpload/Mimetypes.php
+END
+FacebookVideo.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/FileUpload/FacebookVideo.php
+END
+FacebookResumableUploader.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/FileUpload/FacebookResumableUploader.php
+END
+FacebookTransferChunk.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Habfit/!svn/ver/1200/Code/application/libraries/facebook/FileUpload/FacebookTransferChunk.php
+END

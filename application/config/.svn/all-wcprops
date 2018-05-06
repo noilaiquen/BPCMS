@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Habfit/!svn/ver/1527/Code/application/config
+END
+migration.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Habfit/!svn/ver/25/Code/application/config/migration.php
+END
+doctypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Habfit/!svn/ver/25/Code/application/config/doctypes.php
+END
+minify.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Habfit/!svn/ver/25/Code/application/config/minify.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Habfit/!svn/ver/25/Code/application/config/database.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Habfit/!svn/ver/660/Code/application/config/config.php
+END
+memcached.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Habfit/!svn/ver/25/Code/application/config/memcached.php
+END
+autoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Habfit/!svn/ver/624/Code/application/config/autoload.php
+END
+foreign_chars.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Habfit/!svn/ver/25/Code/application/config/foreign_chars.php
+END
+mimes.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Habfit/!svn/ver/25/Code/application/config/mimes.php
+END
+template.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Habfit/!svn/ver/1527/Code/application/config/template.php
+END
+constants.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Habfit/!svn/ver/1338/Code/application/config/constants.php
+END
+user_agents.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Habfit/!svn/ver/25/Code/application/config/user_agents.php
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Habfit/!svn/ver/1515/Code/application/config/routes.php
+END
+profiler.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Habfit/!svn/ver/25/Code/application/config/profiler.php
+END
+hooks.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Habfit/!svn/ver/25/Code/application/config/hooks.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Habfit/!svn/ver/25/Code/application/config/index.html
+END
+smileys.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Habfit/!svn/ver/25/Code/application/config/smileys.php
+END

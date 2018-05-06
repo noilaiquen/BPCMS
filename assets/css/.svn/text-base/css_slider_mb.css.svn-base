@@ -1,0 +1,176 @@
+/*-------------------
+	Creat: 29/07/2016
+	Author: PIX
+--------------------*/
+
+.blk-fullscreen{
+	max-width:1920px;
+	width:100%;
+	margin:0 auto;
+}
+.mag-bottom{margin-bottom:50px;}
+
+
+/*--TEXT RIGHT*/
+.section-client-experience{
+	margin-top:170px;
+    padding-bottom:45px;
+    text-align: left;	
+	color:black;
+    margin-bottom:50px;
+}
+
+.client-experience-item-booking{
+	width:40%;
+	float:right;
+	height:626px;
+	padding-top:60px;
+	color: #7f7f7f;
+	font-size:18px;
+}
+.float-left-50{
+	width:60%;
+	float:left;
+}
+.client-experience-item-booking p{
+	max-width:500px;
+	color:#7f7f7f;
+	text-align:justify;
+	font-size:18px;
+	line-height:21px;
+	font-family: 'Roboto-Light';
+    line-height: 26px;
+	padding-right:10px;
+}
+.client-experience-item-booking p a{display:block;color:#ff00ff;margin-top:10px;}
+.client-experience-item-booking h2{
+	font-size:30px;
+    color: #8b6ce4;
+	font-family: 'Roboto-Light';
+	margin-bottom:10px;
+	font-weight:bold;
+}
+@media only screen and (max-width: 991px) {
+	.client-experience-item-booking h2{font-size:25px;}
+	
+}
+.client-experience-item-booking h3{
+	font-size:24px;
+    color:#7f7f7f;
+	font-family: 'Roboto-Medium';
+	margin-bottom:34px;
+}
+/*IMAGES MOBILE*/
+.how-it-works-phone-wrapper{
+    width:100%;
+	margin-top:90px;
+}
+
+.img-mobile{
+	top: auto; 
+	left: auto; 
+	position: relative; 
+	margin-top: -10px;
+	float:right;
+	margin-right:80px;
+}
+.img-mobile > img{
+	height:626px;
+    width: 307px;
+}
+.img-mobile figure > img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    z-index:9;
+    width: 100px;
+    height: 100px;
+}
+.img-mobile-item{
+    height:477px;
+    left: 21px;
+    overflow: hidden;
+    position: absolute;
+    top: 77px;
+    width: 268px;
+}
+.img-mobile-item img{
+	width:100%;
+	height: 100%;
+    position: absolute;
+    left: 0;
+    top: 475px;
+}
+.img-mobile-item img:nth-child(1){
+	z-index: 9;
+}
+.img-mobile-item img:nth-child(2){
+	z-index: 10;
+}
+.img-mobile-item img:nth-child(3){
+	z-index: 11;
+}
+.img-mobile-item img:nth-child(4){
+	z-index: 12;
+}
+.img-mobile-item img:nth-child(5){
+	z-index: 13;
+}
+.img-mobile-item img:nth-child(6){
+	z-index:14;
+}
+.img-mobile-item img:nth-child(7){
+	z-index:15;
+}
+.img-mobile-item img:nth-child(8){
+	z-index:16;
+}
+.img-mobile-item img:nth-child(9){
+	z-index:17;
+}
+.img-mobile-item img:first-child{top:0;}
+.item-last-mb{display:none;}
+.item-last-mb > img{top:0!important;}
+@media only screen and (max-width:660px) {
+	.section-client-experience{display:none;}
+	.how-it-works-phone-wrapper{display:none;}
+	.sli-for-mobile{display:block!important;}
+}
+
+.item-sli-mb-- .title--sli--mb{
+	font-size:30px;
+    color: #8b6ce4;
+    font-family: 'Roboto-Light';
+    margin-bottom: 10px;
+}
+.item-sli-mb-- .title--sli-next{
+    font-size: 24px;
+    color: #7f7f7f;
+    font-family: 'Roboto-Medium';
+    margin-bottom: 34px;
+}
+.item-sli-mb-- .sli--content-f-mb{
+    color: #7f7f7f;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: 'Roboto-Light';
+    line-height: 26px;
+    padding-right: 10px;
+}
+.item-sli-mb--  .img-sli-mb--{
+	max-width:300px;
+	width:100%;
+	margin-top:30px;;
+}
+.sli-for-mobile {
+	display:none;
+	padding:40px 15px;
+	text-align:center;
+}
+.item-sli-mb--{margin-top:50px;}
+

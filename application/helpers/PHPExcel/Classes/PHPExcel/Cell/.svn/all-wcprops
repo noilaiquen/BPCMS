@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Habfit/!svn/ver/25/Code/application/helpers/PHPExcel/Classes/PHPExcel/Cell
+END
+IValueBinder.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Habfit/!svn/ver/25/Code/application/helpers/PHPExcel/Classes/PHPExcel/Cell/IValueBinder.php
+END
+DataType.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Habfit/!svn/ver/25/Code/application/helpers/PHPExcel/Classes/PHPExcel/Cell/DataType.php
+END
+DataValidation.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Habfit/!svn/ver/25/Code/application/helpers/PHPExcel/Classes/PHPExcel/Cell/DataValidation.php
+END
+DefaultValueBinder.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Habfit/!svn/ver/25/Code/application/helpers/PHPExcel/Classes/PHPExcel/Cell/DefaultValueBinder.php
+END
+Hyperlink.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Habfit/!svn/ver/25/Code/application/helpers/PHPExcel/Classes/PHPExcel/Cell/Hyperlink.php
+END
+AdvancedValueBinder.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Habfit/!svn/ver/25/Code/application/helpers/PHPExcel/Classes/PHPExcel/Cell/AdvancedValueBinder.php
+END
